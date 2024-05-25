@@ -1,0 +1,50 @@
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #FFC0CB 0%, #E6E6FA 100%); 
+}
+
+
+h1 {
+  font-style: italic; 
+  font-weight: bold; 
+  color: purple; 
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: auto; 
+}
+
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #926161;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%; 
+  max-width: 500px; 
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo button {
+  margin-left: auto;
+}
+
+.filter {
+  margin: 20px 0;
+}
+
+
